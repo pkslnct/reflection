@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+using diff i can see the old and new lines which are changed and not the unchanged lines which helps us to focus on the changed lines where the bug is located.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+In the long term, having all the history of my file will help me to see clearly the differences and developments in my files as the projects builds up with time and help me undo any big mistakes in the course of the project later in time.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros:-Because we have choosed to commit, the commit will have significant change and logical reason to commit.The commits will not be unuseful and relatively size of commits will be small than auto commits if we follow good commit practices.
+
+cons:-This way of manual commits has human error and therefore cons is more dependent on the individual using the git.If we skipped a change or combined two or more changes together we may find it difficult to restore the right version of our file in future .Also the size of commits may be too small or too big which entirely depends on the individual using git.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Saving multiple files in one commit is important when those files are related to each other for running properly.If we change a code in one file it may affect the other in some way defined by the present relations.So its better to save all related multiple files together when commiting changes to clearly see differneces of commits in future.
+
+Google docs and the similar others treats each file seperately because they do not have the feature to define relations between the present files . 
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows the list of all commits done in the current project folder with most recent commits first and so on.
+git diff is used to show difference between two commits using commit IDs in additions and deletions.
+ex- git diff (--stat) old_id new_id
+
+How might using version control make you more confident to make changes that could break something?
+
+Being able to revert back changes in the previous commit gives the confidence that no matter what happens the previous stable bugless commits will be accessible and therefore my work will never be lost or irreversible.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use git for my android development project. 
