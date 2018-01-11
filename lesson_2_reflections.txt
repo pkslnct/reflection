@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+when we initialize a repository a .git directory is formed in the working directory.
+We need to initialize git so that we can save our history and git can keep track of our commits.
