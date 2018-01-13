@@ -1,2 +1,4 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
+When we want to publish my work to public or when more than one people are working on the project , we can use GitHub to
+share a common place where we can centrally keep our commits.
