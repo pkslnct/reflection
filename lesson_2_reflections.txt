@@ -6,3 +6,26 @@ We need to initialize git so that we can save our history and git can keep track
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 the staging area is used to store the fils which we want to commit .It gives us the flexibility to choose only the files we want to commit in a single commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Using the staging area , we will only stage those files which we have changed for the logical change and therefore keep only those files in on commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are helpful when we want to experiment with a new feature in our project but are not  sure if they will work or not.But we also want to keep the orignnal version running to show to other people.
+We can also use branches to make a completely new project using the original project as a base.
+
+How do the diagrams help you visualize the branch structure?
+
+the diagram helps to know how the commits get branched in a tree like fashion and which comiits are reacheable from other commits and which commit will be left out if we forgot its ID and checkout another branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+when we merge two branches the branch on which we are currently on and the specified branches in git merge [one or more branches] wil get merged using the commits on each branch and there related common commits from where the branching took-off.
+In the diagram we showed that the new merged commit is a new commit of master because we were on the master branch when we commited.And now the new commit points back to both the branches.git log will show bothe branches' commits sorted in timestamp fashion.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+If we do  merging manually it will  take unnecessary time to remove or add the required lines of code.
+Instead,Automatiic merging by git helps  us to merge the commits quickly if there are no conflicts.And if there are conflicts , we only hhave to resolve the conflicts and nothing else which saves good amount of time if our lines of code is huge in number.  
